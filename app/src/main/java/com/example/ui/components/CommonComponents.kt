@@ -86,9 +86,8 @@ fun MonoTopAppBar(
                 Box(
                     modifier = Modifier
                         .size(36.dp)
-                        .clip(RoundedCornerShape(4.dp))
-                        .border(1.dp, MonoBorder, RoundedCornerShape(4.dp))
-                        .background(Color.White)
+                        .clip(RoundedCornerShape(8.dp))
+                        .background(MonoBlack)
                         .padding(4.dp)
                         .testTag("app_logo_badge"),
                     contentAlignment = Alignment.Center
@@ -96,7 +95,7 @@ fun MonoTopAppBar(
                     Icon(
                         painter = androidx.compose.ui.res.painterResource(id = com.example.R.drawable.ic_monoroutine_logo),
                         contentDescription = "Logo MonoRoutine",
-                        tint = MonoBlack,
+                        tint = Color.White,
                         modifier = Modifier.fillMaxSize()
                     )
                 }

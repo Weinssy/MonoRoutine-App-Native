@@ -1,27 +1,21 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="120dp"
-    android:height="120dp"
-    android:viewportWidth="120"
-    android:viewportHeight="120">
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
     
-    <!-- Geometric Ascending M Glyph from MonoRoutine Brand -->
-    <!-- Main Polyline: Left foot -> Left Peak -> Center Valley -> Ascending Rocket Tip -->
+    <!-- MonoRoutine Continuous Cycle Logo - Upper Swoosh -->
     <path
-        android:fillColor="#00000000"
-        android:strokeColor="#111111"
-        android:strokeWidth="10"
-        android:strokeLineCap="butt"
-        android:strokeLineJoin="miter"
-        android:strokeMiterLimit="8"
-        android:pathData="M 24,90 L 44,40 L 61,64 L 102,12" />
+        android:fillColor="#FFFFFF"
+        android:pathData="M 25.5,43.5 A 31 31 0 0 1 84.7,58.3 C 85.8,61.0 83.2,63.2 80.5,61.2 C 77.8,59.2 74.5,53.5 72.5,46.5 A 20 20 0 0 0 34.2,56.8 C 32.5,58.8 29.8,58.0 28.5,55.0 C 27.2,52.0 26.2,47.5 25.5,43.5 Z" />
 
-    <!-- Right Leg branching down to baseline -->
-    <path
-        android:fillColor="#00000000"
-        android:strokeColor="#111111"
-        android:strokeWidth="10"
-        android:strokeLineCap="butt"
-        android:strokeLineJoin="miter"
-        android:strokeMiterLimit="8"
-        android:pathData="M 76,46 L 95,90" />
+    <!-- MonoRoutine Continuous Cycle Logo - Lower Swoosh (exact 180° rotation) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="180">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 25.5,43.5 A 31 31 0 0 1 84.7,58.3 C 85.8,61.0 83.2,63.2 80.5,61.2 C 77.8,59.2 74.5,53.5 72.5,46.5 A 20 20 0 0 0 34.2,56.8 C 32.5,58.8 29.8,58.0 28.5,55.0 C 27.2,52.0 26.2,47.5 25.5,43.5 Z" />
+    </group>
 </vector>
