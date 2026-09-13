@@ -1,0 +1,8 @@
+{
+  "name": "MonoRoutine",
+  "description": "Minimalist Monochrome Habit & Task Manager - Rutinitas harian, tenggat waktu tugas (H-2 & H-1), alarm mandiri, dan pelacak konsistensi 100% Android Native.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

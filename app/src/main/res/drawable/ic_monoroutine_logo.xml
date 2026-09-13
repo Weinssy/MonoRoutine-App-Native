@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Geometric Ascending M Glyph from MonoRoutine Brand -->
+    <!-- Main Polyline: Left foot -> Left Peak -> Center Valley -> Ascending Rocket Tip -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#111111"
+        android:strokeWidth="10"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter"
+        android:strokeMiterLimit="8"
+        android:pathData="M 24,90 L 44,40 L 61,64 L 102,12" />
+
+    <!-- Right Leg branching down to baseline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#111111"
+        android:strokeWidth="10"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter"
+        android:strokeMiterLimit="8"
+        android:pathData="M 76,46 L 95,90" />
+</vector>
